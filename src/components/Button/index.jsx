@@ -1,7 +1,4 @@
-import React from "react";
+import PrimaryButton from "./PrimaryButton";
+import IconButton from "./IconButton";
 
-const Button = () => {
-  return <div></div>;
-};
-
-export default Button;
+export { PrimaryButton, IconButton };
