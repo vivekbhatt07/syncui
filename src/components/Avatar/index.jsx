@@ -1,7 +1,3 @@
-import React from "react";
+import ImageAvatar from "./ImageAvatar";
 
-const Avatar = () => {
-  return <div></div>;
-};
-
-export default Avatar;
+export default ImageAvatar;

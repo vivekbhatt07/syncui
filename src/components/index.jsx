@@ -8,6 +8,7 @@ import {
   FloatingButton,
 } from "./Button";
 import Card from "./Card";
+import ImageAvatar from "./Avatar";
 
 export {
   Alert,
@@ -18,4 +19,5 @@ export {
   Card,
   LinkButton,
   FloatingButton,
+  ImageAvatar,
 };
