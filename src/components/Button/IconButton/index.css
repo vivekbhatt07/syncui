@@ -1,0 +1,22 @@
+.icon_button {
+  padding: 0.5em 1.2em;
+  border: none;
+  background: #059669;
+  display: flex;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.icon_button:hover {
+  background: #047857;
+}
+
+.icon_button:active {
+  background: #065f46;
+}
