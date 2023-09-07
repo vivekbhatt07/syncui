@@ -1,13 +1,26 @@
-import { PrimaryButton, IconButton } from "./components";
-import { CameraAlt } from "@mui/icons-material";
+import {
+  PrimaryButton,
+  IconButton,
+  LinkButton,
+  FloatingButton,
+} from "./components";
+import { CameraAlt, Add } from "@mui/icons-material";
 
 const App = () => {
   return (
     <div>
       {/* <PrimaryButton>Apply</PrimaryButton> */}
-      {/* <IconButton>
-        <CameraAlt />
-      </IconButton> */}
+      {/* <IconButton
+        iconTitle="Camera"
+        iconLogo={<CameraAlt />}
+        iconText="Take Picture"
+      /> */}
+      {/* <LinkButton reach="">Hello</LinkButton> */}
+
+      {/* <FloatingButton>
+        <Add />
+      </FloatingButton> */}
+      {/* <LinkButton href="">Hello</LinkButton> */}
     </div>
   );
 };

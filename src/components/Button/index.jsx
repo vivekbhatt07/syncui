@@ -1,4 +1,6 @@
-import PrimaryButton from "./PrimaryButton";
+import FloatingButton from "./FloatingButton";
 import IconButton from "./IconButton";
+import LinkButton from "./LinkButton";
+import PrimaryButton from "./PrimaryButton";
 
-export { PrimaryButton, IconButton };
+export { FloatingButton, PrimaryButton, IconButton, LinkButton };
