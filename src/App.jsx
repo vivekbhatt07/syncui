@@ -4,6 +4,7 @@ import {
   LinkButton,
   FloatingButton,
   ImageAvatar,
+  TextAvatar,
 } from "./components";
 import { CameraAlt, Add } from "@mui/icons-material";
 import Avatar from "./assets/avatar.jpg";
@@ -23,7 +24,8 @@ const App = () => {
         <Add />
       </FloatingButton> */}
       {/* <LinkButton href="">Hello</LinkButton> */}
-      <ImageAvatar avatarSource={Avatar} avatarAlt="puppy" dimension="100px" />
+      {/* <ImageAvatar avatarSource={Avatar} avatarAlt="puppy" dimension="100px" /> */}
+      {/* <TextAvatar avatarName="Vivek" avatarBg="#059669" dimension="100" /> */}
     </div>
   );
 };
