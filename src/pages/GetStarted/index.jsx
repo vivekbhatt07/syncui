@@ -1,5 +1,5 @@
 import React from "react";
-import { TextAvatar } from "../../components";
+import { TextAvatar, Alert } from "../../components";
 import "./index.css";
 
 const GetStarted = () => {
@@ -17,7 +17,9 @@ const GetStarted = () => {
           </div>
         </div>
       </aside>
-      <main className="getStarted_main"></main>
+      <main className="getStarted_main" style={{ padding: "32px" }}>
+        <Alert severity="info" message="Hello world" />
+      </main>
     </div>
   );
 };
