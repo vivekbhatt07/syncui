@@ -1,7 +1,4 @@
-import React from "react";
+import AvatarBadge from "./AvatarBadge";
+import IconBadge from "./IconBadge";
 
-const Badge = () => {
-  return <div></div>;
-};
-
-export default Badge;
+export { AvatarBadge, IconBadge };

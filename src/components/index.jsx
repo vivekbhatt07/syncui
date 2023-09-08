@@ -1,5 +1,4 @@
 import Alert from "./Alert";
-import Badge from "./Badge";
 import {
   PrimaryButton,
   IconButton,
@@ -8,10 +7,10 @@ import {
 } from "./Button";
 import Card from "./Card";
 import { ImageAvatar, TextAvatar } from "./Avatar";
+import { AvatarBadge, IconBadge } from "./Badge";
 
 export {
   Alert,
-  Badge,
   PrimaryButton,
   IconButton,
   Card,
@@ -19,4 +18,6 @@ export {
   FloatingButton,
   ImageAvatar,
   TextAvatar,
+  AvatarBadge,
+  IconBadge,
 };

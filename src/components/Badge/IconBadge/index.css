@@ -1,0 +1,23 @@
+.icon_badge {
+  position: relative;
+  display: inline-block;
+}
+
+.icon_badge_wrap svg {
+  font-size: 1em;
+}
+
+.icon_dot {
+  position: absolute;
+  width: 45%;
+  height: 45%;
+  border-radius: 50%;
+  top: -20%;
+  right: -15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30%;
+  font-weight: 600;
+  color: #fff;
+}

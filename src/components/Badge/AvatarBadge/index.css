@@ -1,0 +1,20 @@
+.avatar_badge {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.avatar_badge_wrap {
+  border-radius: 50%;
+}
+
+.avatar_badge_wrap::before {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  right: 3%;
+  bottom: 10%;
+  background-color: inherit;
+}
