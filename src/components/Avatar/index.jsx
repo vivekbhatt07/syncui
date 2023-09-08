@@ -1,3 +1,3 @@
 import ImageAvatar from "./ImageAvatar";
-
-export default ImageAvatar;
+import TextAvatar from "./TextAvatar";
+export { ImageAvatar, TextAvatar };
