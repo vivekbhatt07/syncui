@@ -15,6 +15,8 @@ import {
   TextOverlayCard,
 } from "./Card";
 
+import CodePreview from "./CodePreview";
+
 import { PrimaryLink } from "./Link";
 
 export {
@@ -33,4 +35,5 @@ export {
   ShadowCard,
   TextOverlayCard,
   PrimaryLink,
+  CodePreview,
 };

@@ -1,3 +1,56 @@
 .app {
   min-height: 100vh;
 }
+
+ul {
+  padding-left: 24px;
+}
+
+.flex_vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_horizontal {
+  display: flex;
+}
+
+.text_xs {
+  font-size: 12px;
+}
+
+.text_sm {
+  font-size: 14px;
+}
+
+.text_base {
+  font-size: 16px;
+}
+
+.gap_1 {
+  gap: 4px;
+}
+
+.gap_2 {
+  gap: 8px;
+}
+
+.gap_3 {
+  gap: 12px;
+}
+
+.gap_4 {
+  gap: 16px;
+}
+
+.gap_5 {
+  gap: 20px;
+}
+
+.gap_6 {
+  gap: 24px;
+}
+
+.p_4 {
+  padding: 16px;
+}

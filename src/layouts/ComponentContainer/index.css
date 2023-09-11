@@ -1,0 +1,18 @@
+.component_container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  .component_container_head {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .component_container_body {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
