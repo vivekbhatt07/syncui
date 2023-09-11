@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.css";
 
-const GetStarted = () => {
+const PrimaryCard = () => {
   return <div></div>;
 };
 
-export default GetStarted;
+export default PrimaryCard;

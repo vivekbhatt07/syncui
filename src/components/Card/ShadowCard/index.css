@@ -1,0 +1,11 @@
+.shadow_card {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background: #fff;
+  min-height: 350px;
+  max-height: 350px;
+  min-width: 300px;
+  max-width: 300px;
+  border-radius: 8px;
+  padding: 16px;
+}

@@ -1,0 +1,40 @@
+.page {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  .page_sidebar {
+    display: flex;
+    flex-basis: 20%;
+    background: #18181b;
+  }
+  .page_main {
+    flex-basis: 80%;
+    background: #27272a;
+    color: #fff;
+    overflow-y: scroll;
+    .page_main_wrap {
+      padding: 6vh 2rem 0 2rem;
+      height: 94vh;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      .page_main_head {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        .page_main_title {
+          font-size: 32px;
+        }
+        .page_main_subtitle {
+          font-size: 16px;
+          color: #a1a1aa;
+        }
+      }
+      .page_main_body {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+    }
+  }
+}

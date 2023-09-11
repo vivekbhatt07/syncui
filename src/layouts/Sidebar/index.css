@@ -1,0 +1,25 @@
+.sidebar {
+  width: 100%;
+  .sidebar_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .logo_subtitle {
+      color: #fff;
+    }
+    .item_head {
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+}
+
+.sidebar_item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 16px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
