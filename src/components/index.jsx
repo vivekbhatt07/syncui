@@ -5,19 +5,32 @@ import {
   LinkButton,
   FloatingButton,
 } from "./Button";
-import Card from "./Card";
 import { ImageAvatar, TextAvatar } from "./Avatar";
 import { AvatarBadge, IconBadge } from "./Badge";
+import {
+  BadgeCard,
+  DismissCard,
+  PrimaryCard,
+  ShadowCard,
+  TextOverlayCard,
+} from "./Card";
+
+import { PrimaryLink } from "./Link";
 
 export {
   Alert,
   PrimaryButton,
   IconButton,
-  Card,
   LinkButton,
   FloatingButton,
   ImageAvatar,
   TextAvatar,
   AvatarBadge,
   IconBadge,
+  BadgeCard,
+  DismissCard,
+  PrimaryCard,
+  ShadowCard,
+  TextOverlayCard,
+  PrimaryLink,
 };
