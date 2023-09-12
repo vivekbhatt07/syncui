@@ -20,6 +20,7 @@ import {
   PageContainer,
   ComponentContainer,
   ComponentFeature,
+  FeatureContainer,
 } from "../../layouts";
 import { basicButtonJsx, basicButtonStyle } from "./buttonCode.js";
 
@@ -49,8 +50,7 @@ const ButtonPage = () => {
             componentJsx={basicButtonJsx}
             componentStyle={basicButtonStyle}
           ></ComponentContainer>
-          <div className="flex_vertical gap_5 p_4">
-            <h2>Props</h2>
+          <FeatureContainer title="Props">
             <ComponentFeature
               title="children"
               subTitle="The content of the component."
@@ -65,7 +65,7 @@ const ButtonPage = () => {
             >
               Feature
             </ComponentFeature>
-          </div>
+          </FeatureContainer>
         </section>
       </div>
     </PageContainer>
