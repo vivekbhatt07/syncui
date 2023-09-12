@@ -18,6 +18,7 @@ import {
 import CodePreview from "./CodePreview";
 
 import { PrimaryLink } from "./Link";
+import Heading from "./Heading";
 
 export {
   Alert,
@@ -36,4 +37,5 @@ export {
   TextOverlayCard,
   PrimaryLink,
   CodePreview,
+  Heading,
 };
