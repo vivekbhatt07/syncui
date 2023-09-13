@@ -19,6 +19,7 @@ import CodePreview from "./CodePreview";
 
 import { PrimaryLink } from "./Link";
 import Heading from "./Heading";
+import { RoundImage, ResponsiveImage } from "./Image";
 
 export {
   Alert,
@@ -38,4 +39,6 @@ export {
   PrimaryLink,
   CodePreview,
   Heading,
+  RoundImage,
+  ResponsiveImage,
 };

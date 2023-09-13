@@ -1,4 +1,4 @@
-const textCodeJsx = `import React from "react";
+import React from "react";
 import "./index.css";
 
 export default function Text({ variant, children, className }) {
@@ -15,6 +15,3 @@ export default function Text({ variant, children, className }) {
       return <p className={className ? " " + className : ""}>{children}</p>;
   }
 }
-`;
-
-export { textCodeJsx };
