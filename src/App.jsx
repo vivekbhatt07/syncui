@@ -18,9 +18,9 @@ const App = () => {
   return (
     <div className="app">
       <Routes>
-        <Route element={<GetStartedPage />} path="/" />
-        <Route element={<LandingPage />} path="/landing" />
-        <Route element={<AlertPage />} path="/alert" />
+        {/* <Route element={<GetStartedPage />} path="/" />
+        <Route element={<LandingPage />} path="/" /> */}
+        <Route element={<AlertPage />} path="/" />
         <Route element={<AvatarPage />} path="/avatar" />
         <Route element={<BadgePage />} path="/badge" />
         <Route element={<ButtonPage />} path="/button" />
