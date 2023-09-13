@@ -22,7 +22,16 @@ import {
   ComponentFeature,
   FeatureContainer,
 } from "../../layouts";
-import { basicButtonJsx, basicButtonStyle } from "./buttonCode.js";
+import {
+  basicButtonJsx,
+  basicButtonStyle,
+  floatingButtonJsx,
+  floatingButtonStyle,
+  iconButtonJsx,
+  iconButtonStyle,
+  linkButtonJsx,
+  linkButtonStyle,
+} from "./buttonCode.js";
 
 const ButtonPage = () => {
   return (
@@ -44,9 +53,38 @@ const ButtonPage = () => {
           </ul>
         </div>
         <section className="flex_vertical gap_3">
+          <div className="flex_horizontal gap_8 items_center">
+            <PrimaryButton>Button</PrimaryButton>
+          </div>
           <ComponentContainer
             componentTitle="Basic button"
             componentSubtitle="The Button comes with three variants: text (default), contained, and outlined."
+            componentJsx={basicButtonJsx}
+            componentStyle={basicButtonStyle}
+          ></ComponentContainer>
+          <FeatureContainer title="Props">
+            <ComponentFeature
+              title="children"
+              subTitle="The content of the component."
+              featureType="node"
+            >
+              Feature
+            </ComponentFeature>
+            <ComponentFeature
+              title="children"
+              subTitle="The content of the component."
+              featureType="node"
+            >
+              Feature
+            </ComponentFeature>
+          </FeatureContainer>
+
+          <div className="flex_horizontal gap_8 items_center">
+            <LinkButton>Link</LinkButton>
+          </div>
+          <ComponentContainer
+            componentTitle="Link button"
+            componentSubtitle="This is a link."
             componentJsx={basicButtonJsx}
             componentStyle={basicButtonStyle}
           ></ComponentContainer>

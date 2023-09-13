@@ -14,6 +14,7 @@ import {
   TextOverlayCard,
   PrimaryLink,
   CodePreview,
+  IconBadge,
 } from "../../components";
 import "./index.css";
 import {
@@ -28,6 +29,7 @@ import {
   iconBadgeJsx,
   iconBadgeStyle,
 } from "./badgeCode";
+import { ShoppingCart } from "@mui/icons-material";
 
 const BadgePage = () => {
   return (
@@ -37,6 +39,22 @@ const BadgePage = () => {
     >
       <div className="flex_vertical gap_6">
         <section className="flex_vertical gap_3">
+          <div className="flex_horizontal gap_3 items_center">
+            <AvatarBadge statusColor="#16a34a">
+              <ImageAvatar
+                avatarSource="https://picsum.photos/id/237/200/300"
+                avatarAlt="puppy"
+                dimension="50px"
+              />
+            </AvatarBadge>
+            <AvatarBadge statusColor="#16a34a">
+              <ImageAvatar
+                avatarSource="https://picsum.photos/id/237/200/300"
+                avatarAlt="puppy"
+                dimension="100px"
+              />
+            </AvatarBadge>
+          </div>
           <ComponentContainer
             componentTitle="Avatar badge"
             componentSubtitle="The Button comes with three variants: text (default), contained, and outlined."
@@ -59,7 +77,14 @@ const BadgePage = () => {
               Feature
             </ComponentFeature>
           </FeatureContainer>
-
+          <div className="flex_horizontal gap_8 items_center">
+            <IconBadge badgeColor="#16a34a" badgeText={4} dimension="40px">
+              <ShoppingCart />
+            </IconBadge>
+            <IconBadge badgeColor="#16a34a" badgeText={4} dimension="80px">
+              <ShoppingCart />
+            </IconBadge>
+          </div>
           <ComponentContainer
             componentTitle="Icon badge"
             componentSubtitle="The Button comes with three variants: text (default), contained, and outlined."

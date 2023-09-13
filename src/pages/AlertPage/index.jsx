@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { EmojiEmotions } from "@mui/icons-material";
 import {
   TextAvatar,
   Alert,
@@ -31,6 +32,21 @@ const AlertPage = () => {
       pageSubtitle="An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task."
     >
       <div className="flex_vertical gap_6">
+        <section className="flex_vertical gap_3">
+          <Alert severity="success" message="Message sent successfully!" />
+          <Alert severity="error" message="Error in sending message" />
+          <Alert
+            severity="warning"
+            message="Invalid Login Credentials entered"
+          />
+          <Alert severity="info" message="This is a info message" />
+          <Alert
+            severity="custom"
+            message="This is a custom alert"
+            isIcon
+            severityIcon={<EmojiEmotions />}
+          />
+        </section>
         <section className="flex_vertical gap_3">
           <ComponentContainer
             componentTitle="Basic alert"

@@ -15,6 +15,14 @@ ul {
   display: flex;
 }
 
+.items_center {
+  align-items: center;
+}
+
+.justify_center {
+  justify-content: center;
+}
+
 .text_xs {
   font-size: 12px;
 }
@@ -49,6 +57,14 @@ ul {
 
 .gap_6 {
   gap: 24px;
+}
+
+.gap_7 {
+  gap: 28px;
+}
+
+.gap_8 {
+  gap: 32px;
 }
 
 .p_4 {
