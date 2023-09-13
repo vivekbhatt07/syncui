@@ -1,0 +1,16 @@
+.primary_card {
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+}
+
+.primary_head {
+  width: 100%;
+}
+
+.primary-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

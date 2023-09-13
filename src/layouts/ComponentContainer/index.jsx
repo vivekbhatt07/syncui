@@ -17,7 +17,7 @@ const ComponentContainer = ({
       </div>
       <div className="component_container_body">
         <CodePreview code={componentJsx} isJsx />
-        <CodePreview code={componentStyle} isStyle />
+        {componentStyle && <CodePreview code={componentStyle} isStyle />}
       </div>
     </div>
   );

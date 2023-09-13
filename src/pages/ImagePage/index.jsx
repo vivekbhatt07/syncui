@@ -1,20 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  TextAvatar,
-  Alert,
-  BadgeCard,
-  PrimaryButton,
-  IconButton,
-  LinkButton,
-  AvatarBadge,
-  ImageAvatar,
-  DismissCard,
-  ShadowCard,
-  TextOverlayCard,
-  PrimaryLink,
-  CodePreview,
-} from "../../components";
+import { RoundImage, ResponsiveImage } from "../../components";
 import "./index.css";
 import {
   PageContainer,
@@ -22,20 +8,19 @@ import {
   ComponentFeature,
   FeatureContainer,
 } from "../../layouts";
-import { textCodeJsx } from "./textCode";
 
-const TextPage = () => {
+import { roundedImageJsx, roundedImageStyle } from "./imageCode";
+
+const ImagePage = () => {
   return (
-    <PageContainer
-      pageTitle="Text"
-      pageSubtitle="The Text component is used to display text."
-    >
+    <PageContainer pageTitle="Image" pageSubtitle="This is an Image component.">
       <div className="flex_vertical gap_6">
         <section className="flex_vertical gap_3">
           <ComponentContainer
-            componentTitle="Text"
-            componentSubtitle="The Link component allows you to easily customize anchor elements with your theme colors and typography styles."
-            componentJsx={textCodeJsx}
+            componentTitle="Rounded Image"
+            componentSubtitle="This is a Rounded Image"
+            componentJsx={roundedImageJsx}
+            componentStyle={roundedImageStyle}
           ></ComponentContainer>
           <FeatureContainer title="Props">
             <ComponentFeature
@@ -59,4 +44,4 @@ const TextPage = () => {
   );
 };
 
-export default TextPage;
+export default ImagePage;
