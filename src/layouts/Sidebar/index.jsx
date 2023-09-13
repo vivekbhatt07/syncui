@@ -31,7 +31,7 @@ const Sidebar = () => {
         </SidebarItem>
         <SidebarItem direction="column" spacing="8px" alignItems="flex-start">
           <h3 className="item_head">Elements</h3>
-          <PrimaryLink reach="/alert">Alert</PrimaryLink>
+          <PrimaryLink reach="/">Alert</PrimaryLink>
           <PrimaryLink reach="/avatar">Avatar</PrimaryLink>
           <PrimaryLink reach="/badge">Badge</PrimaryLink>
           <PrimaryLink reach="/button">Button</PrimaryLink>
