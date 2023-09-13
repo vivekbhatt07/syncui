@@ -1,7 +1,9 @@
 import React from "react";
 import "./index.css";
-import { TextAvatar } from "../../components";
+import { IconButton, TextAvatar } from "../../components";
 import { PrimaryLink } from "../../components";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import { useNavigate } from "react-router-dom";
 
 const SidebarItem = ({ children, direction, spacing, alignItems }) => {
   return (
@@ -37,6 +39,11 @@ const Sidebar = () => {
           <PrimaryLink reach="/heading">Heading</PrimaryLink>
           <PrimaryLink reach="/link">Link</PrimaryLink>
           <PrimaryLink reach="/text">Text</PrimaryLink>
+        </SidebarItem>
+        <SidebarItem direction="row" spacing="16px" alignItems="center">
+          <a href="https://github.com/vivekbhatt07/syncui" target="_blank">
+            Github
+          </a>
         </SidebarItem>
       </div>
     </aside>
