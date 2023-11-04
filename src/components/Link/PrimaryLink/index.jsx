@@ -5,7 +5,11 @@ import "./index.css";
 const PrimaryLink = (props) => {
   const { children, reach } = props;
   return (
-    <NavLink className="primary_link" to={reach}>
+    <NavLink
+      className="primary_link"
+      to={reach}
+      style={({ isActive }) => ({ color: isActive ? "#bada55" : "#fff" })}
+    >
       {children}
     </NavLink>
   );
