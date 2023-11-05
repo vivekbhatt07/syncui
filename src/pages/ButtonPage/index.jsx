@@ -160,7 +160,7 @@ const ButtonPage = () => {
           </FeatureContainer>
           {/*  */}
 
-          <div className="flex_horizontal gap_8 items_center relative">
+          <div className="flex_horizontal gap_8 items_center">
             <FloatingButton>
               <Add />
             </FloatingButton>

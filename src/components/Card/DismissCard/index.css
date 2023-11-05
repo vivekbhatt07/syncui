@@ -1,6 +1,7 @@
 .dismiss_card {
   border-radius: 8px;
-  background-color: #fff;
+  color: #000;
+  background-color: #beb6b6;
   min-width: 350px;
   max-width: 350px;
   min-height: 200px;

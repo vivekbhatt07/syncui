@@ -1,0 +1,11 @@
+.text_card {
+  background-color: #cbf6ff;
+  border-radius: 8px;
+  min-width: 210px;
+  max-width: 210px;
+  min-height: 250px;
+  max-height: 250px;
+  padding: 1em;
+  margin: 1em;
+  color: #000;
+}

@@ -13,6 +13,7 @@ import {
   PrimaryCard,
   ShadowCard,
   TextOverlayCard,
+  TextCard,
 } from "./Card";
 
 import CodePreview from "./CodePreview";
