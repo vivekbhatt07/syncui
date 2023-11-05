@@ -8,7 +8,7 @@ const Heading = (props) => {
       return (
         <h1
           style={{ ...visual }}
-          className={"h1" + className ? " " + className : ""}
+          className={`h1${className ? " " + className : ""}`}
         >
           {children}
         </h1>
