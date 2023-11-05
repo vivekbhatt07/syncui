@@ -8,6 +8,7 @@ import HeadingPage from "./HeadingPage";
 import LandingPage from "./LandingPage";
 import LinkPage from "./LinkPage";
 import TextPage from "./TextPage";
+import ImagePage from "./ImagePage";
 
 export {
   AlertPage,
@@ -20,4 +21,5 @@ export {
   LandingPage,
   LinkPage,
   TextPage,
+  ImagePage,
 };

@@ -39,6 +39,7 @@ const Sidebar = () => {
           <PrimaryLink reach="/heading">Heading</PrimaryLink>
           <PrimaryLink reach="/link">Link</PrimaryLink>
           <PrimaryLink reach="/text">Text</PrimaryLink>
+          <PrimaryLink reach="/image">Image</PrimaryLink>
         </SidebarItem>
         <SidebarItem direction="row" spacing="16px" alignItems="center">
           <a href="https://github.com/vivekbhatt07/syncui" target="_blank">

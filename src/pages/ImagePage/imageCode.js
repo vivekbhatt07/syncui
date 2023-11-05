@@ -23,14 +23,48 @@ export default RoundImage;
 `;
 
 const roundedImageStyle = `.round_image {
-    overflow: hidden;
-  }
-  
-  .round_image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  `;
+  overflow: hidden;
+}
 
-export { roundedImageJsx, roundedImageStyle };
+.round_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}  `;
+
+const responsiveImageJsx = `import React from "react";
+import "./index.css";
+
+const ResponsiveImage = (props) => {
+  const { thumbnail, thumbnailAlt, imageVisual, visual } = props;
+  return (
+    <div style={{ ...visual }} className="responsive_image">
+      <img
+        src={thumbnail}
+        alt={thumbnailAlt}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          ...imageVisual,
+        }}
+      />
+    </div>
+  );
+};
+
+export default ResponsiveImage;
+`;
+
+const responsiveImageStyle = `.responsive_image {
+  display: flex;
+}
+`;
+
+export {
+  roundedImageJsx,
+  roundedImageStyle,
+  responsiveImageJsx,
+  responsiveImageStyle,
+};
