@@ -1,17 +1,87 @@
 import React from "react";
 import "./index.css";
 
-export default function Text({ variant, children, className }) {
+const Text = (props) => {
+  const { children, visuals, variant } = props;
   switch (variant) {
-    case "small":
+    case "p": {
       return (
-        <small className={className ? " " + className : ""}>{children}</small>
+        <p style={{ ...visuals }} className="text-p">
+          {children}
+        </p>
       );
-    case "p":
-      return <p className={className ? " " + className : ""}>{children}</p>;
-    case "q":
-      return <q className={className ? " " + className : ""}>{children}</q>;
-    default:
-      return <p className={className ? " " + className : ""}>{children}</p>;
+    }
+    case "span": {
+      return (
+        <span style={{ ...visuals }} className="text-span">
+          {children}
+        </span>
+      );
+    }
+    case "strong": {
+      return (
+        <strong style={{ ...visuals }} className="text-strong">
+          {children}
+        </strong>
+      );
+    }
+    case "em": {
+      return (
+        <em style={{ ...visuals }} className="text-em">
+          {children}
+        </em>
+      );
+    }
+    case "code": {
+      return (
+        <code style={{ ...visuals }} className="text-code">
+          {children}
+        </code>
+      );
+    }
+    case "dfn": {
+      return (
+        <dfn style={{ ...visuals }} className="text-dfn">
+          {children}
+        </dfn>
+      );
+    }
+    case "cite": {
+      return (
+        <cite style={{ ...visuals }} className="text-cite">
+          {children}
+        </cite>
+      );
+    }
+    case "abbr": {
+      return (
+        <abbr style={{ ...visuals }} className="text-abbr">
+          {children}
+        </abbr>
+      );
+    }
+    case "blockquote": {
+      return (
+        <blockquote style={{ ...visuals }} className="text-blockquote">
+          {children}
+        </blockquote>
+      );
+    }
+    case "div": {
+      return (
+        <div style={{ ...visuals }} className="text-div">
+          {children}
+        </div>
+      );
+    }
+    default: {
+      return (
+        <p style={{ ...visuals }} className="text-p">
+          {children}
+        </p>
+      );
+    }
   }
-}
+};
+
+export default Text;

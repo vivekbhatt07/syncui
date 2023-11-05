@@ -22,6 +22,8 @@ import { PrimaryLink } from "./Link";
 import Heading from "./Heading";
 import { RoundImage, ResponsiveImage } from "./Image";
 
+import Text from "./Text";
+
 export {
   Alert,
   PrimaryButton,
@@ -42,4 +44,6 @@ export {
   Heading,
   RoundImage,
   ResponsiveImage,
+  TextCard,
+  Text,
 };

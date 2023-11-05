@@ -14,6 +14,7 @@ import {
   TextOverlayCard,
   PrimaryLink,
   CodePreview,
+  Text,
 } from "../../components";
 import "./index.css";
 import {
@@ -32,9 +33,19 @@ const TextPage = () => {
     >
       <div className="flex_vertical gap_6">
         <section className="flex_vertical gap_3">
+          <Text variant="p">This is a paragraph tag</Text>
+          <Text variant="span">This is a span tag</Text>
+          <Text variant="strong">This is a strong tag</Text>
+          <Text variant="em">This is a em tag</Text>
+          <Text variant="code">This is a code tag</Text>
+          <Text variant="dfn">This is a dfn tag</Text>
+          <Text variant="cite">This is a cite tag</Text>
+          <Text variant="abbr">This is a abbr tag</Text>
+          <Text variant="blockquote">This is a blockquote tag</Text>
+          <Text variant="div">This is a div tag</Text>
           <ComponentContainer
             componentTitle="Text"
-            componentSubtitle="The Link component allows you to easily customize anchor elements with your theme colors and typography styles."
+            componentSubtitle="This is a text component"
             componentJsx={textCodeJsx}
           ></ComponentContainer>
           <FeatureContainer title="Props">
