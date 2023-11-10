@@ -37,7 +37,7 @@ const Sidebar = () => {
           <PrimaryLink reach="/button">Button</PrimaryLink>
           <PrimaryLink reach="/card">Card</PrimaryLink>
           <PrimaryLink reach="/heading">Heading</PrimaryLink>
-          <PrimaryLink reach="/link">Link</PrimaryLink>
+          {/* <PrimaryLink reach="/link">Link</PrimaryLink> */}
           <PrimaryLink reach="/text">Text</PrimaryLink>
           <PrimaryLink reach="/image">Image</PrimaryLink>
         </SidebarItem>
